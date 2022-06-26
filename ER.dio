@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="GtWb8X0z294t8uu4RT4p" name="ページ1">
-        <mxGraphModel dx="1434" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2317" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2">
+                <mxCell id="6" style="edgeStyle=none;html=1;" parent="1" source="2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-280" y="370" as="targetPoint"/>
                         <Array as="points">
@@ -13,19 +13,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="11">
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| nickname | string | null:false |&lt;/div&gt;&lt;div&gt;| email | string | null:false, unique: true |&lt;/div&gt;&lt;div&gt;| encrypted_password | string | null:false |&lt;/div&gt;&lt;div&gt;| last_name | string | null:false |&lt;/div&gt;&lt;div&gt;| first_name | string | null:false |&lt;/div&gt;&lt;div&gt;| last_name_kana | string | null:false |&lt;/div&gt;&lt;div&gt;| first_name_kana | string | null:false |&lt;/div&gt;&lt;div&gt;| birthday | date | null:false |&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| nickname | string | null:false |&lt;/div&gt;&lt;div&gt;| email | string | null:false, unique: true |&lt;/div&gt;&lt;div&gt;| encrypted_password | string | null:false |&lt;/div&gt;&lt;div&gt;| last_name | string | null:false |&lt;/div&gt;&lt;div&gt;| first_name | string | null:false |&lt;/div&gt;&lt;div&gt;| last_name_kana | string | null:false |&lt;/div&gt;&lt;div&gt;| first_name_kana | string | null:false |&lt;/div&gt;&lt;div&gt;| birthday | date | null:false |&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="80" width="330" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| title | string | null:false |&lt;/div&gt;&lt;div&gt;| text | text | null:false |&lt;/div&gt;&lt;div&gt;| category_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| item_status_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| shipping_cost_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| shipping_date_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| price | integer | null:false |&lt;/div&gt;&lt;div&gt;| user | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| title | string | null:false |&lt;/div&gt;&lt;div&gt;| text | text | null:false |&lt;/div&gt;&lt;div&gt;| category_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| item_status_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| shipping_cost_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| shipping_date_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| price | integer | null:false |&lt;/div&gt;&lt;div&gt;| user | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-450" y="375" width="380" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="4" value="users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="30" y="50" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-280" y="320" as="sourcePoint"/>
                         <mxPoint x="-240" y="370" as="targetPoint"/>
@@ -34,70 +34,70 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                <mxCell id="8" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-280" y="320" as="sourcePoint"/>
                         <mxPoint x="-320" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="item" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="10" value="items" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-450" y="355" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="17">
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| user | references | null:false, foreign_key:true |&lt;/div&gt;&lt;div&gt;| item | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="11" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| user | references | null:false, foreign_key:true |&lt;/div&gt;&lt;div&gt;| item | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="480" width="380" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0.147;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="11">
+                <mxCell id="13" value="" style="endArrow=classic;html=1;entryX=0.147;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="200" y="440" as="sourcePoint"/>
                         <mxPoint x="190" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.35;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="11">
+                <mxCell id="14" value="" style="endArrow=classic;html=1;entryX=0.35;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="210" y="440" as="sourcePoint"/>
                         <mxPoint x="190" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="15" value="orders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="110" y="450" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| postcode | string | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| city | string | null:false |&lt;/div&gt;&lt;div&gt;| block | string | null:false |&lt;/div&gt;&lt;div&gt;| building | string |         |&lt;/div&gt;&lt;div&gt;| phone_number | string | null:false |&lt;/div&gt;&lt;div&gt;| order | references | null:false |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| postcode | string | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| city | string | null:false |&lt;/div&gt;&lt;div&gt;| block | string | null:false |&lt;/div&gt;&lt;div&gt;| building | string |         |&lt;/div&gt;&lt;div&gt;| phone_number | string | null:false |&lt;/div&gt;&lt;div&gt;| order | references | null:false |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="150" y="760" width="300" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="19" value="addresses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="150" y="730" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="belongs_to :user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="20" value="belongs_to :user" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="300" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="has_many :orders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="21" value="has_many :orders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="220" y="300" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="has_many :items" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="22" value="has_many :items" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-70" y="150" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="endArrow=none;html=1;exitX=1.005;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="11">
+                <mxCell id="24" value="" style="endArrow=none;html=1;exitX=1.005;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="40" y="470" as="sourcePoint"/>
                         <mxPoint x="90" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" value="has_one :order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="25" value="has_one :order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-70" y="520" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="belongs_to :item" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="27" value="belongs_to :item" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="10" y="500" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="belongs_to :user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="29" value="belongs_to :user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="250" y="455" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="&lt;br&gt;has_one :address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="30" value="&lt;br&gt;has_one :address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="304" y="550" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="belongs_to :order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="31" value="belongs_to :order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="320" y="735" width="110" height="20" as="geometry"/>
                 </mxCell>
             </root>
