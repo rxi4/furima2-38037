@@ -35,7 +35,7 @@ Things you may want to cover:
 | first_name_kana | string | null:false |
 | birthday | date | null:false |
 ### Association
-has_many :item
+has_many :items
 has_many :orders
 
 ## itemsテーブル
