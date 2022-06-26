@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="GtWb8X0z294t8uu4RT4p" name="ページ1">
-        <mxGraphModel dx="2317" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1220" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -44,7 +44,11 @@
                     <mxGeometry x="-450" y="355" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="17" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="740"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="11" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| user | references | null:false, foreign_key:true |&lt;/div&gt;&lt;div&gt;| item | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="480" width="380" height="80" as="geometry"/>
@@ -64,8 +68,8 @@
                 <mxCell id="15" value="orders" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="110" y="450" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| postcode | string | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| city | string | null:false |&lt;/div&gt;&lt;div&gt;| block | string | null:false |&lt;/div&gt;&lt;div&gt;| building | string |         |&lt;/div&gt;&lt;div&gt;| phone_number | string | null:false |&lt;/div&gt;&lt;div&gt;| order | references | null:false |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="150" y="760" width="300" height="170" as="geometry"/>
+                <mxCell id="17" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;div&gt;| Column | Type            | Options               |&lt;/div&gt;&lt;br&gt;&lt;div&gt;| postcode | string | null:false |&lt;/div&gt;&lt;div&gt;| prefecture_id | integer | null:false |&lt;/div&gt;&lt;div&gt;| city | string | null:false |&lt;/div&gt;&lt;div&gt;| block | string | null:false |&lt;/div&gt;&lt;div&gt;| building | string |         |&lt;/div&gt;&lt;div&gt;| phone_number | string | null:false |&lt;/div&gt;&lt;div&gt;| order | references | null:false, foreign_key:true |&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="760" width="390" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="addresses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="150" y="730" width="60" height="30" as="geometry"/>

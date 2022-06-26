@@ -73,7 +73,7 @@ has_one :address
 | block | string | null:false |
 | building | string |         |
 | phone_number | string | null:false |
-| order | references | null:false |
+| order | references | null:false, foreign_key:true |
 ### association
 belongs_to :order
 
