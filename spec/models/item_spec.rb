@@ -11,8 +11,14 @@ describe Item, type: :model do
       it '全ての項目が入力されていれば出品ができる' do
         expect(@item).to be_valid
       end
+    end
     
     context '商品出品がうまくいかないとき' do
+      it 'ユーザーが紐付いていないと出品できない' do
+        @item.user = nil
+        @item.valid?
+        expect(@item.errors.full_messages).to include("User must exist")
+      end
       it 'imageが空では登録されない' do
         @item.image = nil
         @item.valid?
@@ -81,7 +87,7 @@ describe Item, type: :model do
       it 'priceが空では登録されない' do
         @item.price = ""
         @item.valid?
-        expect(@item.errors.full_messages).to include("Price can't be blank", "Price is invalid", "Price is not a number")
+        expect(@item.errors.full_messages).to include("Price can't be blank")
       end
       it 'priceが半角数字以外では登録できない' do
         @item.price = "１０００"
@@ -91,15 +97,13 @@ describe Item, type: :model do
       it 'priceが300より少ないと登録できない' do
         @item.price = "50"
         @item.valid?
-        expect(@item.errors.full_messages).to include("Price must be greater than 300")
+        expect(@item.errors.full_messages).to include("Price must be greater than or equal to 300")
       end
       it 'priceが9999999より多いと登録できない' do
         @item.price = "10000000"
         @item.valid?
-        expect(@item.errors.full_messages).to include("Price must be less than 9999999")
+        expect(@item.errors.full_messages).to include("Price must be less than or equal to 9999999")
       end
-    end
-
     end
   end
 end
