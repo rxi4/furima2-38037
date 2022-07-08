@@ -30,10 +30,25 @@ Things you may want to cover:
 ユーザーを登録すると商品を出品できるようになります。自身が出品した商品は、編集と削除をすることができます。他のユーザーが出品した商品は、クレジットカードを用いて購入することができます。
 
 # URL
+https://furima2-38037.herokuapp.com/
+
+### Basic認証
+・ ID: admin
+・ Pass: 2222
 
 # テスト用アカウント
+出品者用
+email: re0921@gmail.com
+password: reiki0921
 
-#
+購入者用
+email: no0921@gmail.com
+password: reiki0921
+### 購入者カード情報
+番号：4242424242424242
+期限：未来の年月であれば可能
+セキュリティコード：123
+
 
 ## usersテーブル
 | Column | Type            | Options               |
